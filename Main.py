@@ -10,8 +10,8 @@ def scrape_news_from_feed(feed_url):
          article.download()
          article.parse()
 
-    #      articles.append({
-    #          'title': article.title,
+          articles.append({
+              'title': article.title,
     #          'author': article.authors,
     #          'publish_date': article.publish_date,
     #          'content': article.text
